@@ -1,0 +1,66 @@
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  height:100%;
+  text-align:center;
+  box-sizing: border-box;
+  
+}
+
+.wrappper{
+  @include clear;
+  width:100%;
+  margin:0 auto;
+}
+
+
+canvas{
+  color:$white;
+  border: $white dashed 2px;
+  padding:15px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+   margin:5px 0;
+}
+
+h1 {
+	font-size: 2.6em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+p{
+  font-size: 1.6em;
+}
+
+
+
+
+#buttons{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:30px;
+
+}
+
+.selected {
+    margin-left: 5px;
+    border:solid 1px black;
+    padding: 10px;
+    display: flex;
+    
+}
+
+#guess_film{
+    height: 150px;
+    
+}
